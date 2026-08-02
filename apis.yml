@@ -1,7 +1,30 @@
 aid: veluga
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veluga.png
 name: Veluga
-description: Veluga is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Veluga (Veluga Brewery Inc.) is a South Korean B2B alcohol wholesale
+  distribution platform that connects hospitality business owners with liquor
+  suppliers. Operating from Mapo, Seoul, the company runs a wholesale
+  marketplace offering real-time wholesale pricing quotes for spirits and craft
+  beverages, product recommendations for business owners, wholesale order
+  facilitation, and partnership programs for distributors and catering
+  services. Veluga positions itself as a transaction and information
+  intermediary rather than a direct seller. The company began as a craft-beer
+  and snack subscription service and is backed by 500 Global, Kakao Ventures,
+  SparkLabs, HL Holdings, and Sema Investment. No public developer API,
+  SDK, or developer portal is currently published; this profile captures the
+  company identity for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/veluga/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Alcohol
+- Beverage
+- Wholesale
+- Marketplace
+- B2B
+- Distribution
+- E-Commerce
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,14 @@ maintainers:
 common:
 - type: Website
   url: https://business.veluga.kr
+- type: TermsOfService
+  url: https://veluga.notion.site/26-03-22-30cacc83985d8018b0f5edbbc24f3c38
+- type: PrivacyPolicy
+  url: https://veluga.notion.site/26-03-26-308acc83985d8005a568f080a2524255
+- type: DomainSecurity
+  url: security/veluga-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
