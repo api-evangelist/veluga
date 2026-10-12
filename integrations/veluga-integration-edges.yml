@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/veluga/integrations
+- https://n8n.io/integrations/veluga/
+- https://composio.dev/toolkits/veluga
+- https://monid.ai/tools/veluga
+checked:
+- https://composio.dev/toolkits/veluga
+- https://monid.ai/tools/veluga
+- https://n8n.io/integrations/veluga/
+- https://zapier.com/apps/veluga/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
